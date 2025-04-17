@@ -1,17 +1,18 @@
-# Apple Frameworks
+# Barcode Scanner
 
-This app demonstrates how to integrate UIKit views into a SwiftUI project. It highlights the flexibility of SwiftUI for building user interfaces while maintaining a strong focus on app functionality.
+The Barcode Scanner app bridges the gap between UIKit and SwiftUI by passing data using coordinators and delegates. It is designed to demonstrate advanced data handling techniques in SwiftUI.
 
 ## Features
 
-- **UIKit Integration**: Embed UIKit views within SwiftUI to leverage existing components.
-- **Future-Proofing**: Keep UIKit components in a separate folder to allow easy replacement with SwiftUI equivalents in the future.
-- **Ease of UI Updates**: Learn how SwiftUI simplifies UI modifications.
+- **Data Passing**: Transfer data from UIKit views to SwiftUI using coordinators and delegates.
+- **Multiple Barcode Scanning**: Enable the app to scan multiple barcodes in one session.
+- **Error Handling**: Implement robust error handling mechanisms in SwiftUI.
+- **Cleaner Code**: Refactor code for better readability and maintainability.
 
 ## Tasks in This Project
 
-1. Integrate a UIKit view into a SwiftUI app.
-2. Understand how to separate and organize UIKit components for future updates.
-3. Focus on app functionality instead of UI challenges.
+1. Refactor the code to improve readability and maintainability.
+2. Connect between UIKit and SwiftUI
+3. Add support for scanning multiple barcodes in one session.
 
 ---
